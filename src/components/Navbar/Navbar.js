@@ -28,7 +28,7 @@ export const MyNavbar = (props) => (
           </NavItem>
 
           <Navbar.Text> 
-            <Navbar.Link href="https://issuu.com/milpitasinfo/docs/city_guide_mcg16_web?e=1213412/39221357" target="_blank" className="route-text navbar-link-text">
+            <Navbar.Link href="https://issuu.com/milpitasinfo/docs/city_guide_mcg16_web?e=1213412/39221357" target="_blank" className="route-text">
               City Guide
             </Navbar.Link>
           </Navbar.Text>

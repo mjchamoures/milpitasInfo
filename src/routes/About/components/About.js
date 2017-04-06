@@ -16,10 +16,6 @@ export const About = (props) => (
     <Col xs={12} sm={6}>
       <ContactMe />
     </Col>
-
-    <Col xs={12}>
-      <Resume /> 
-    </Col>
     
   </div>
 
