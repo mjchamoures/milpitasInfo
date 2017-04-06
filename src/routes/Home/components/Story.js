@@ -1,27 +1,26 @@
 import React from 'react';
-import './styles/HomeView.scss';
-import TopStories from './TopStories'
+import './styles/TopStories.scss';
 import { Col, Panel } from 'react-bootstrap';
 
-class HomeView extends React.Component {
+
+class Story extends React.Component {
 
   render() {
 
     // this will have a prop of currentSelectedProject...it should map to display selected component and pass it's info on down the children
     // will render a ProjectDescription component and ProjectDemo component
     return (
-      <Col xs={12}>
-        <Panel className="home-container">
-          <Col sm={12} md={6}>
-            <TopStories />
+      <Panel>
+          <Col xs={12}>
+            Hey
           </Col>
-          <Col sm={12} md={6}>
-            <TopStories />
+
+          <Col xs={12}>
+            You
           </Col>
-        </Panel>
-      </Col>
+      </Panel>  
     );
   }
 }
 
-export default HomeView
+export default Story

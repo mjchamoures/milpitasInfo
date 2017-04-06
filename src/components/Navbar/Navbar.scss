@@ -1,8 +1,14 @@
 .main-nav-bar {
   background : black;
+  margin-bottom : 5px;
 }
 
 .route-text {
-  color : lightgray;
-  margin : 10px;
+  color : lightgray !important;
+  font-weight : bold;
+}
+
+.navbar-link-text {
+  padding-left : 15px;
+  padding-right : 15px;
 }

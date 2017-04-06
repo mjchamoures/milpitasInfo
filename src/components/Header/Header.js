@@ -5,19 +5,23 @@ import { Col } from 'react-bootstrap'
 import './Header.scss'
 
 export const Header = () => (
-  
-  <div className="text-center">
-    <img
-        alt='milpitasInfoPageHeader!'
-        className='milpitasInfoPageHeader'
-        src={MilpitasInfoPageHeader} 
-    />
-    <img 
-      alt='LocalBusinessDirectoryHeader!'
-      className='localBusinessDirectoryHeader'
-      src={LocalBusinessDirectoryHeader} 
-    />
+  <Col xs={12}>
+    <div className="text-center">
+      <div className='img-container'>
+        <img
+            alt='milpitasInfoPageHeader!'
+            src={MilpitasInfoPageHeader} 
+        />
+      </div>
+
+      <div className='img-container'>
+      <img 
+        alt='LocalBusinessDirectoryHeader!'
+        src={LocalBusinessDirectoryHeader} 
+      />
+      </div>
     </div>
+  </Col>
 )
 
 export default Header
