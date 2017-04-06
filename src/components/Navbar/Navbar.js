@@ -39,16 +39,22 @@ export const MyNavbar = (props) => (
             </IndexLink>
           </NavItem>
 
-        </Nav>
-
-        <Nav pullRight>
-
           <NavItem>
             <IndexLink to='/about' activeClassName='route--active' className="route-text">
               About
             </IndexLink>
           </NavItem>
-          
+
+        </Nav>
+
+        <Nav pullRight>
+
+          <NavItem>
+            <IndexLink to='/admin' activeClassName='route--active' className="route-text">
+              Log In
+            </IndexLink>
+          </NavItem>
+
         </Nav>
         
     </Navbar.Collapse>
