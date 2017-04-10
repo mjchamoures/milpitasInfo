@@ -34,7 +34,7 @@ export const MyNavbar = (props) => (
           </Navbar.Text>
 
           <NavItem>
-            <IndexLink to='/test' activeClassName='route--active' className="route-text">
+            <IndexLink to='/news' activeClassName='route--active' className="route-text">
               News
             </IndexLink>
           </NavItem>

@@ -3,6 +3,7 @@ import CoreLayout from '../layouts/CoreLayout'
 import Home from './Home'
 import AboutRoute from './About'
 import ProjectsPageRoute from './Projects'
+import NewsPageRoute from './News'
 
 
 /*  Note: Instead of using JSX, we recommend using react-router
@@ -15,6 +16,7 @@ export const createRoutes = (store) => ({
   childRoutes : [
     AboutRoute(store),
     ProjectsPageRoute(store),
+    NewsPageRoute(store),
   ]
 })
 
