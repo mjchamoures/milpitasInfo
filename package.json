@@ -64,7 +64,7 @@
       }
     },
     "start:prod": {
-      "command": "node bin/server",
+      "command": "node bin/dev-server",
       "env": {
         "NODE_ENV": "production"
       }
@@ -83,10 +83,6 @@
   },
   "author": "michael chamoures",
   "license": "MIT",
-  "peerDependencies": {
-    "node-sass": "^4.0.0",
-    "webpack": "^2.0.0"
-  },
   "dependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
