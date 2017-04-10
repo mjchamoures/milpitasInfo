@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/TopStories.scss';
+import './styles/TopStories.css';
 import { Col, Panel, Image, Media } from 'react-bootstrap';
 
 
@@ -15,7 +15,7 @@ class Story extends React.Component {
         <Panel>
           
           <Media>
-          
+
             <Col xs={6} sm={4} md={4}>
               <Image
                 responsive
