@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../../components/Header'
 import Navbar from '../../components/Navbar'
 import './CoreLayout.css'
-import '../../styles/core.css'
+import '../../styles/core.scss'
 
 export const CoreLayout = ({ children }) => (
   <div className='container'>
