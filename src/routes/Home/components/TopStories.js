@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/TopStories.scss';
+import './styles/TopStories.css';
 import { Col, Panel } from 'react-bootstrap';
 import Story from './Story';
 import ColumnPanelContainer from '../../../components/ColumnPanelContainer';
