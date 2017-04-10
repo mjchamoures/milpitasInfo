@@ -1,6 +1,3 @@
-@import 'base';
-@import '~normalize.css/normalize';
-
 html {
   box-sizing: border-box;
 }
