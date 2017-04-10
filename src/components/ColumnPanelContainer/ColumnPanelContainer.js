@@ -1,5 +1,5 @@
 import React from 'react';
-import './ColumnPanelContainer.scss';
+import './ColumnPanelContainer.css';
 import { Col, Panel } from 'react-bootstrap';
 
 

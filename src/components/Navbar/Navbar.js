@@ -1,6 +1,6 @@
 import React from 'react';
 import { IndexLink, Link } from 'react-router';
-import './Navbar.scss';
+import './Navbar.css';
 import { Col } from 'react-bootstrap'
 import {Nav, NavItem, Navbar, NavDropdown, MenuItem, Glyphicon} from 'react-bootstrap';
 

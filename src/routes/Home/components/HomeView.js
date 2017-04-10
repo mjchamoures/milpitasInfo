@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/HomeView.scss';
+import './styles/HomeView.css';
 import TopStories from './TopStories'
 import { Col, Panel } from 'react-bootstrap';
 import DuckImage from '../assets/Duck.png';

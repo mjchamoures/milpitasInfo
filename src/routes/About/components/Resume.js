@@ -1,7 +1,7 @@
 import React from 'react';
 import { Panel } from 'react-bootstrap';
 import ResumeImg from '../assets/Michael_Chamoures_Resume.png';
-import './About.scss';
+import './About.css';
 
 
 export const Resume = (props) => (

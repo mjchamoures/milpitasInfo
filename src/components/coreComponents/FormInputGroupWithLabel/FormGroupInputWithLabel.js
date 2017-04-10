@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './FormGroupInputWithLabel.scss';
+import classes from './FormGroupInputWithLabel.css';
 import { FormControl } from 'react-bootstrap';
 import { FormGroup } from 'react-bootstrap';
 import { ControlLabel } from 'react-bootstrap';

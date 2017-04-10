@@ -2,7 +2,7 @@ import React from 'react'
 import MilpitasInfoPageHeader from '../../../public/MilpitasInfoPageHeader.png';
 import LocalBusinessDirectoryHeader from '../../../public/LocalBusinessDirectoryHeader.png'
 import { Col } from 'react-bootstrap'
-import './Header.scss'
+import './Header.css'
 
 export const Header = () => (
   <Col xs={12}>
