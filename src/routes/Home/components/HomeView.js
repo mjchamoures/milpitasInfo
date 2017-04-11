@@ -14,13 +14,13 @@ class HomeView extends React.Component {
     return (
       <Col xs={12}>
         <Panel className="home-container">
-          <Col sm={12} md={5}>
+          <Col sm={12} md={7}>
             <TopStories 
               headerTitle={"Top Milpitas Stories"}
               stories={stories}
             />
           </Col>
-          <Col sm={12} md={7}>
+          <Col sm={12} md={5}>
             <TopStories 
               headerTitle={"Featured Businesses"}
               stories={stories}
