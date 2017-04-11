@@ -14,13 +14,13 @@ class HomeView extends React.Component {
     return (
       <Col xs={12}>
         <Panel className="home-container">
-          <Col sm={12} md={6}>
+          <Col sm={12} md={5}>
             <TopStories 
               headerTitle={"Top Milpitas Stories"}
               stories={stories}
             />
           </Col>
-          <Col sm={12} md={6}>
+          <Col sm={12} md={7}>
             <TopStories 
               headerTitle={"Featured Businesses"}
               stories={stories}
@@ -38,8 +38,9 @@ export default HomeView;
 let stories = [
   {   
       imageId : 1,
-      image : DuckImage,
+      image : SwimImage,
       imageCaption : "Milpitas High School Principal Phil Morales.",
+      storyId : 1,
       title : "Milpitas High School principal announces his resignation",
       author: "ALIYAH MOHAMMED",
       date  : "Apr 05, 2017",
@@ -51,6 +52,7 @@ let stories = [
       imageId : 2,
       image : SwimImage,
       imageCaption : "",
+      storyId : 2,
       title : "MHS swimmers sink Santa Clara",
       author: "",
       date  : "Apr 03, 2017",
@@ -62,6 +64,7 @@ let stories = [
       imageId : 3,
       image : null,
       imageCaption : "",
+      storyId : 3,
       title : "City to equip 84 cops with body-worn cameras",
       author: "",
       date  : "",

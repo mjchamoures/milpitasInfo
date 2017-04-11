@@ -4,3 +4,8 @@
   max-width: 100%; 
   height: auto;
 }
+
+.story-title {
+  color : darkblue;
+  cursor : pointer;
+}

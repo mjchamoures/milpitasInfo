@@ -1,0 +1,11 @@
+.responsive-image-container {
+  margin-bottom: 10px;
+}
+
+.image-caption {
+    font-style: italic;
+    color: #666666;
+    text-align: left;
+    font-size : small;
+    cursor: pointer;  
+}
