@@ -1,6 +1,6 @@
 import React from 'react';
-
-
+import '../styles/NewsPage.css';
+import { Col, Panel } from 'react-bootstrap';
 
 
 class NewsPage extends React.Component {
@@ -8,11 +8,11 @@ class NewsPage extends React.Component {
   render() {
 
     return (
+      <Col xs={12}>
+        <Panel className="news-container"> 
 
-      <div> 
-
-      </div>
-
+        </Panel>
+      </Col>
     );
 
   }

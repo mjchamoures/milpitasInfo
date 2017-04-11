@@ -1,16 +1,21 @@
 import React from 'react'
 import Header from '../../components/Header'
 import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 import './CoreLayout.css'
 import '../../styles/core.css'
 
 export const CoreLayout = ({ children }) => (
-  <div className='container'>
-    <Header />
-    <Navbar />
+  <div className='container' style={{ width : '75%'}}>
     <div className='core-layout__viewport'>
+      <Header />
+      
+      <Navbar />
+      
       {children}
-    </div>
+      
+      <Footer />
+    </div>      
   </div>
 )
 
