@@ -6,7 +6,7 @@ import './CoreLayout.css'
 import '../../styles/core.css'
 
 export const CoreLayout = ({ children }) => (
-  <div className='container' style={{ width : '80%'}}>
+  <div className='container' style={{ width : '100%'}}>
     <div className='core-layout__viewport'>
       <Header />
       

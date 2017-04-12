@@ -1,9 +1,15 @@
 import React from 'react';
+import TopStories from './TopStories';
+import FeaturedBusinesses from './FeaturedBusinesses';
+
 import './styles/HomeView.css';
-import TopStories from './TopStories'
 import { Col, Panel } from 'react-bootstrap';
 import DuckImage from '../assets/Duck.png';
 import SwimImage from '../assets/Swim.png';
+import DebbieImage from '../assets/Debbie.png';
+import AcupunctureImage from '../assets/Acupuncture.png';
+import PrincipalImage from '../assets/Principal.png';
+import MassageImage from '../assets/massage.png';
 
 class HomeView extends React.Component {
 
@@ -21,9 +27,9 @@ class HomeView extends React.Component {
             />
           </Col>
           <Col sm={12} md={5}>
-            <TopStories 
+            <FeaturedBusinesses 
               headerTitle={"Featured Businesses"}
-              stories={stories}
+              businesses={businesses}
             />
           </Col>
         </Panel>
@@ -38,7 +44,7 @@ export default HomeView;
 let stories = [
   {   
       imageId : 1,
-      image : SwimImage,
+      image : PrincipalImage,
       imageCaption : "Milpitas High School Principal Phil Morales.",
       storyId : 1,
       title : "Milpitas High School principal announces his resignation",
@@ -71,6 +77,55 @@ let stories = [
       likes : 0,
       comments : 0,
       intro : ""
+  }
+  
+];
+
+let businesses = [
+  {   
+      imageId : 1,
+      image : DebbieImage,
+      businessId : 1,
+      businessName : "Debbie Giordano, Owner, Master Brokers- Milpitas, CA.- Realtor, Buy or Sell Your Home",
+      businessLink : 'http://google.com',
+      address : {
+        street : "",
+        city : "",
+        state : "",
+        zip : ""
+      },
+      phoneNumber : "+1 408 424 4160",
+      intro : "Debbie Giordano a Master Brokers Real Estate specialist is here serving the Milpitas community to help you buy or sell your home. Watch our talk show on Milpitas local channel 26. We offer a truck ."
+  },
+  {   
+      imageId : 2,
+      image : AcupunctureImage,
+      businessId : 2,
+      businessName : "Natural Health Center Milpitas Ca- Acupuncture, Chiropractic, Back Pain, Headaches, Massage",
+      businessLink : 'http://google.com',
+      address : {
+        street : "1916 Grand Teton Dr",
+        city : "Milpitas",
+        state : "CA",
+        zip : "95035"
+      },
+      phoneNumber : "",
+      intro : "Natural Health Center is a multi-treatment center specializing in acupuncture, chiropractic, and massage . We treat many problems relating to auto, work and personal injury including, whiplash, low..."
+  },
+  {   
+      imageId : 3,
+      image : MassageImage,
+      businessId : 3,
+      businessName : "A-Care Acupuncture & Health Center Milpitas CA- Massage Reflexology",
+      businessLink : 'http://google.com',
+      address : {
+        street : "155 N maccarthy blvdr",
+        city : "Milpitas",
+        state : "CA",
+        zip : "95035"
+      },
+      phoneNumber : "+1 408 424 4160",
+      intro : "A-Care Acupuncture & Health Center offers pain management, acupuncture and acupressure, massage therapy, foot reflexotherapy, and we help with difficult medical conditions. We gladly accept auto ac..."
   }
   
 ]
