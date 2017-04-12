@@ -77,7 +77,7 @@ class Story extends React.Component {
         <ResponsiveImageContainer
          src={this.props.image} 
          caption={this.props.imageCaption}
-         colXs={6} 
+         colXs={12} 
          colSm={4} 
          colMd={4} 
          onClick={(storyId) => this.handleStoryClick(storyId)}

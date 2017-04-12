@@ -96,7 +96,7 @@ class Business extends React.Component {
 
     if(this.props.image !== null) {
       responsiveImageContainer = (
-        <Col xs={6} sm={4} md={4} className={'responsive-image-container'}>
+        <Col xs={12} sm={4} md={4} className={'responsive-image-container'}>
           <Image
             responsive
             src={this.props.image} 
