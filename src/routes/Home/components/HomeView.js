@@ -7,7 +7,7 @@ import { Col, Panel } from 'react-bootstrap';
 import DuckImage from '../assets/Duck.png';
 import SwimImage from '../assets/Swim.png';
 import DebbieImage from '../assets/Debbie.png';
-import AcupunctureImage from '../assets/Acupuncture.png';
+import AcupunctureImage from '../assets/acupuncture.png';
 import PrincipalImage from '../assets/Principal.png';
 import MassageImage from '../assets/massage.png';
 
