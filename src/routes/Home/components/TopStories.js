@@ -87,23 +87,19 @@ class Story extends React.Component {
     }
 
     return (
-      
-        <Panel>
-          
-          <Media>
+         
+      <Media>
 
-            {responsiveImageContainer}
+        {responsiveImageContainer}
 
-            <Media.Body>
-              <Media.Heading>
-                <a className={'story-title'} onClick={() => this.handleStoryClick(this.props.storyId)}>{this.props.title}</a>
-              </Media.Heading>
-              <p>{this.props.intro}</p>
-            </Media.Body>
+        <Media.Body>
+          <Media.Heading>
+            <a className={'story-title'} onClick={() => this.handleStoryClick(this.props.storyId)}>{this.props.title}</a>
+          </Media.Heading>
+          <p>{this.props.intro}</p>
+        </Media.Body>
 
-          </Media>
-           
-      </Panel>  
+      </Media>
       
     );
   }

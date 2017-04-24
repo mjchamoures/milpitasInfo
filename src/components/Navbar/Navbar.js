@@ -6,8 +6,8 @@ import {Nav, NavItem, Navbar, NavDropdown, MenuItem, Glyphicon} from 'react-boot
 
 export const MyNavbar = (props) => (
   
-<Col xs={12}>
-  <Navbar fluid collapseOnSelect inverse>
+<Col xs={12} className={'pad0'}>
+  <Navbar fluid collapseOnSelect inverse className={'pad5 margin5'}>
 
     <Navbar.Header>
         <Navbar.Brand>

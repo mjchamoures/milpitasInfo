@@ -5,7 +5,7 @@ import { Col } from 'react-bootstrap'
 import './Header.css'
 
 export const Header = () => (
-  <Col xs={12}>
+  <Col xs={12} className={'pad0'}>
     <div className="text-center">
       <div className='img-container'>
         <img

@@ -7,3 +7,7 @@
   color : lightgray !important;
   font-weight : bold;
 }
+
+.margin5 {
+  margin-bottom : 5px;
+}

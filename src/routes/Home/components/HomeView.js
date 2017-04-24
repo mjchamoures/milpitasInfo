@@ -18,15 +18,15 @@ class HomeView extends React.Component {
     // this will have a prop of currentSelectedProject...it should map to display selected component and pass it's info on down the children
     // will render a ProjectDescription component and ProjectDemo component
     return (
-      <Col xs={12}>
-        <Panel className="home-container">
-          <Col sm={12} md={7}>
+      <Col xs={12} className={'pad0'}>
+        <Panel className="home-container" >
+          <Col sm={12} md={7} className={'pad5'}>
             <TopStories 
               headerTitle={"Top Milpitas Stories"}
               stories={stories}
             />
           </Col>
-          <Col sm={12} md={5}>
+          <Col sm={12} md={5} className={'pad5'}>
             <FeaturedBusinesses 
               headerTitle={"Featured Businesses"}
               businesses={businesses}

@@ -479,3 +479,11 @@ body {
   box-sizing: inherit;
 }
 
+.pad0 {
+  padding : 0px;
+}
+
+.pad5 {
+  padding : 5px;
+}
+
